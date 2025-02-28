@@ -1,0 +1,37 @@
+.rightbar{
+    flex: 3;
+}
+.rightbartitle{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.rightbarfollowingimg{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.rightbarinfo{
+    margin-bottom: 30px;
+}
+.rightbarinfoitem{
+    margin-bottom: 20px;
+}
+.rightbarinfokey{
+    font-weight: 500;
+    margin-right: 15px;
+    color: springgreen;
+}
+.rightbarinfovalue{
+    font-weight:300 ;
+}
+.rightbarfollowings{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.rightbarfollowing{
+    display: flex;
+    flex-direction: column;
+}
